@@ -1,0 +1,1 @@
+{"name":"Local: A","url":"d:\\Programming Files\\Java Files\\A.cpp","tests":[{"id":1631112855294,"input":"4\n1\na\n6\nabbaba\n6\nabbaba\n9\nbabbabbaa","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Programming Files\\Java Files\\A.cpp","group":"local","local":true}
