@@ -25,6 +25,12 @@ public class _5_MinimumSubsetsSumDifference {
             }
         }
 
+        for(int i=1; i<=n; i++){
+            for(int j=1; j<=sum; j++){
+                    System.out.println(dp[i][j]);
+            }
+        }
+
         ArrayList<Integer> store = new ArrayList<>();
         for(int j=1; j<=sum/2; j++){
             if(dp[n][j])
@@ -48,7 +54,7 @@ public class _5_MinimumSubsetsSumDifference {
     }
 
     public static void main (String args[]){
-        int arr[]={100000};//{1,11,6,5};
+        int arr[]={1,11,6,5}; //{100000}
         System.out.println(MinimumDifference(arr));
     }
 }

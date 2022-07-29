@@ -17,7 +17,7 @@ public class _24_MatrixChainMultiplication {
         if(dp[i][j]!=-1)
             return dp[i][j];
         int minimum=Integer.MAX_VALUE;
-        for(int k=i; k<j; k++){
+        for(int k=i; k<j; k++){ // k goes from i to j-1
             int temp=solve(arr, i, k) + solve(arr, k+1, j) + arr[i-1]*arr[k]*arr[j];
             minimum=Math.min(temp, minimum);
         }

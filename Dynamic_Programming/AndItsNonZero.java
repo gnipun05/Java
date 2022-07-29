@@ -1,7 +1,7 @@
 /* Codeforces Global Round 18
  You are given an array consisting of all integers from [l,r] inclusive. For example, if l=2 and r=5, the array would be [2,3,4,5].
  What's the minimum number of elements you can delete to make the bitwise AND of the array non-zero? 
- 1 ≤ l ≤ r ≤ 2⋅105   */
+ 1 ≤ l ≤ r ≤ 2⋅10^5   */
 
 package Dynamic_Programming;
 

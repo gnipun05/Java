@@ -1,3 +1,4 @@
+// if the question was minimum number of insertions to make string palindrome, then the code/answer would have been the same
 package Dynamic_Programming;
 
 public class _18_MinimumDeletionsToMakePalindrome {

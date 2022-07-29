@@ -9,7 +9,7 @@ public class _10_CoinChange_1_ { // Coin change problem: Maximum number of ways
         int dp[][]=new int[n+1][amount+1];
         for(int i=0; i<=n; i++)
             dp[i][0]=1;
-        for(int i=0; i<=amount; i++)
+        for(int i=1; i<=amount; i++)
             dp[0][i]=0;
         for(int i=1; i<=n; i++){
             for(int j=1; j<=amount; j++){

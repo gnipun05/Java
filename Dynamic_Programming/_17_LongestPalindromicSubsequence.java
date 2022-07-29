@@ -1,3 +1,8 @@
+// Remember
+// Like we can use Longest Common Subsequence method to find Longest Common Substring
+// We cant use Longest Palindromic Subsequence to find the Longest Palindromic SUBSTRING
+
+
 package Dynamic_Programming;
 
 public class _17_LongestPalindromicSubsequence {
